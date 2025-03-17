@@ -6,33 +6,42 @@
     <link href="./src/output.css" rel="stylesheet" />
     <title>Address Book</title>
   </head>
-  <body>
-    <header class="flex">
-      <h1 class="font-jua">Addres Book</h1>
+  <body class="font-jua">
+    <header class="flex gap-10 mt-10 ml-4">
+      <h1 class="text-xl opacity-80">Addres Book</h1>
       <input
         type="search"
-        placeholder="       Search"
-        class="bg-gray opacity-60 w-[166px] h-[27px] rounded-sm placeholder:font-jua placeholder:text-xs"
+        placeholder="Search"
+        class="bg-gray opacity-60 w-[166px] h-[27px] rounded-sm placeholder:text-xs pl-6 hover:bg-gray-400"
       /><img
         src="Assets/icons/search icon.png"
         alt="search icon"
-        class="w-5 h-5"
+        class="w-5 h-5 fixed left-[168px] top-[45px]"
       />
-      <button class="w-20 h-7 bg-green flex items-center">
+      <button
+        class="w-20 h-7 bg-green flex items-center rounded-[0.3125rem] hover:bg-green-600"
+      >
         <img
           src="Assets/icons/Vector 1.png"
           alt="adding contact icon"
-          class="w-4 h-4"
+          class="w-4 h-4 opacity-80"
         />
-        <p class="font-jua text-[0.625rem]">New Contact</p>
+        <p class="text-[0.625rem] opacity-80">New Contact</p>
       </button>
     </header>
     <main>
-      <h2>Contact (2)</h2>
-      <p>Name</p>
+      <h2 class="text-xl opacity-80 ml-4 mt-8">Contact (2)</h2>
+
+      <p class="mt-8 ml-10">Name</p>
       <hr />
-      <p>Pian Sopian</p>
-      <p>Alex Fergusov</p>
+
+      <ul class="ml-6 mr-6 flex flex-col gap-6 mt-6">
+        <li
+          class="w-[100%] h-[45px] rounded-lg flex items-center hover:bg-green-100 pl-3"
+        >
+          <p>Johny Cj</p>
+        </li>
+      </ul>
     </main>
   </body>
 </html>

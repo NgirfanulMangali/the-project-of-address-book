@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <title>input information</title>
+  </head>
+  <body>
+    <div class="flex mb-12">
+      <img src="Assets/icons/arrow_back icon.png" alt="arrow_back icon" />
+      <button class="py-0 px-2.5 bg-gray-200 rounded-2xl">Save</button>
+    </div>
+    <main class="mt-4">
+      <form class="space-y-6 max-w-sm mx-auto">
+        <!-- First Name -->
+        <div class="flex items-center border border-gray-400 rounded px-3 py-2">
+          <span class="text-gray-500 mr-2">
+            <i class="fas fa-user"></i>
+          </span>
+          <input
+            type="text"
+            placeholder="First name"
+            class="w-full outline-none text-gray-700"
+          />
+        </div>
+
+        <!-- Last Name -->
+        <div class="flex items-center border border-gray-400 rounded px-3 py-2">
+          <input
+            type="text"
+            placeholder="Last name"
+            class="w-full outline-none text-gray-700 ml-6"
+          />
+        </div>
+
+        <!-- Company -->
+        <div class="flex items-center border border-gray-400 rounded px-3 py-2">
+          <span class="text-gray-500 mr-2">
+            <i class="fas fa-building"></i>
+          </span>
+          <input
+            type="text"
+            placeholder="Company"
+            class="w-full outline-none text-gray-700"
+          />
+        </div>
+
+        <!-- Job Title -->
+        <div class="flex items-center border border-gray-400 rounded px-3 py-2">
+          <input
+            type="text"
+            placeholder="Job title"
+            class="w-full outline-none text-gray-700 ml-6"
+          />
+        </div>
+
+        <!-- Email -->
+        <div class="flex items-center border border-gray-400 rounded px-3 py-2">
+          <span class="text-gray-500 mr-2">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <input
+            type="email"
+            placeholder="Email"
+            class="w-full outline-none text-gray-700"
+          />
+        </div>
+
+        <!-- Phone -->
+        <div class="flex items-center border border-gray-400 rounded px-3 py-2">
+          <span class="text-gray-500 mr-2">
+            <i class="fas fa-phone"></i>
+          </span>
+          <input
+            type="tel"
+            placeholder="Phone"
+            class="w-full outline-none text-gray-700"
+          />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
