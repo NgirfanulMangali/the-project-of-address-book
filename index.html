@@ -3,19 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="src/output.css" rel="stylesheet" />
+    <link href="./src/output.css" rel="stylesheet" />
     <title>Address Book</title>
   </head>
   <body>
-    <header>
-      <h1 class="bg-blue-500 text-3xl">Addres Book</h1>
-      <input type="search" placeholder="Search" /><img
+    <header class="flex">
+      <h1 class="font-jua">Addres Book</h1>
+      <input
+        type="search"
+        placeholder="       Search"
+        class="bg-gray opacity-60 w-[166px] h-[27px] rounded-sm placeholder:font-jua placeholder:text-xs"
+      /><img
         src="Assets/icons/search icon.png"
         alt="search icon"
+        class="w-5 h-5"
       />
-      <button>
-        <img src="Assets/icons/Vector 1.png" alt="adding contact icon" />New
-        Contact
+      <button class="w-20 h-7 bg-green flex items-center">
+        <img
+          src="Assets/icons/Vector 1.png"
+          alt="adding contact icon"
+          class="w-4 h-4"
+        />
+        <p class="font-jua text-[0.625rem]">New Contact</p>
       </button>
     </header>
     <main>
