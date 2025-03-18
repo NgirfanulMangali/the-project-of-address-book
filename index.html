@@ -12,7 +12,7 @@
       <input
         type="search"
         placeholder="Search"
-        class="bg-gray opacity-60 w-[166px] h-[27px] rounded-sm placeholder:text-xs pl-6 hover:bg-gray-400"
+        class="bg-gray opacity-60 w-[166px] h-[27px] rounded-sm placeholder:text-xs pl-6 hover:bg-gray-400 outline-none"
       /><img
         src="Assets/icons/search icon.png"
         alt="search icon"
@@ -20,6 +20,8 @@
       />
       <button
         class="w-20 h-7 bg-green flex items-center rounded-[0.3125rem] hover:bg-green-600"
+        onclick="document.getElementById('modal').classList.remove('hidden')"
+        class="bg-green-500 text-white px-4 py-2 rounded"
       >
         <img
           src="Assets/icons/Vector 1.png"
@@ -43,5 +45,8 @@
         </li>
       </ul>
     </main>
+   
+      </div>
+    </div>
   </body>
 </html>
